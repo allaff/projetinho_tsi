@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Ubuntu&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+ body{
+  background: linear-gradient(to bottom, #0012b4, #136ec4, #91d3ff);
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+
+#home {
+  background: url(/img/25861903_dynamic_wireframe_particle_landscape_background.jpg);
+  color: #ffffff;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.h1-title {
+  font-weight: 600;
+  font-size: 100px;
+  padding: 15rem 15rem;
+  margin: 0 auto;
+}
+
+.h-section{
+  font-size: 30pt;
+  padding: 5rem 15rem;
+  color: #fff;
+}
+
+.h1-style {
+  text-align: center;
+}
+
+.p-style {
+  text-align: center;
+  font-size: 18pt;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.w-list{
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+table {
+  width: 180vh;
+  border-collapse: collapse;
+  border: 0.5px solid;
+  max-width: 100%; /* Largura máxima da tabela */
+  margin: 0 auto; /* Centraliza a tabela na página */
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+  border: 0.5px solid;
+}
+
+.div-style {
+  display: block;
+  height: 100vh;
+}
+
+/* Estilos para tornar a tabela responsiva */
+@media (max-width: 2500px) {
+  table {
+    width: 95%;
+    margin: 0 auto;
+  }
+}
